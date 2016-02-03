@@ -1,0 +1,57 @@
+body {
+font-family: helvetica, sans-serif;
+
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {max-width:100%;}
+
+ul {
+  padding: 0;
+}
+.octodex::after {
+  content:""
+  display: block;
+  clear: both;
+
+
+}
+.octocat {
+  float:left;
+  width: 31.1033681%;
+  list-style: none;
+  margin-left: 01.6724739%;
+}
+
+.octocat > a {
+  display: inline-block;
+  border: solid 1px grey;
+  border-radius: 2px;
+  padding: 10px;
+}
+.image-footer {
+  border-bottom: 1px solid grey;
+  padding:
+}
+.image-footer img {
+  width: 6.2780269%;
+}
+
+.image-caption {
+  float: right;
+}
+.image-caption a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+.authors,
+.authors li {
+  display: inline-block;
+}
+.authors {
+  float: right;
+}
